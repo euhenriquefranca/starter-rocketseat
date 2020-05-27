@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 5: Module 01</title>
+</head>
+<body>
+  <script>
+    var usuarios = [
+      {
+        nome: "Diego",
+        habilidades: ["Javascript", "ReactJS", "Redux"]
+      },
+      {
+        nome: "Gabriel",
+        habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
+      }
+    ];
+    for(i of usuarios) {
+      console.log(`O ${Object.values(i)[0]} possui as habilidades: ${Object.values(i)[1].join(",")})`)
+    }
+  </script>
+</body>
+</html>
